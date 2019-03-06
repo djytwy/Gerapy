@@ -1,5 +1,5 @@
 FROM python:latest
-MAINTAINER thsheep
+MAINTAINER twy
 COPY requirements.txt /tmp/requirements.txt
 COPY run.sh /usr/bin/run.sh
 RUN mkdir /app \
